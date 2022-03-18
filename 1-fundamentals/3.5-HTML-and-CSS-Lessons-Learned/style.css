@@ -1,0 +1,126 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  /* essas 2 linhas abaixo (8 e 9), peguei do seguinte post no stackoverflow:
+    https://stackoverflow.com/questions/17756649/disable-the-horizontal-scroll
+    minha página estava com side-scroll após adicionar o footer,
+    então adicionei uma largura máxima ao body todo e escondi o overflow no eixo x */
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+main {
+  padding: 30px 50px;
+  margin: 100px auto 0;
+  max-width: 800px;
+}
+
+.article-wrap {
+  display: inline-block;
+  background-color: rgb(238, 238, 238);
+  padding: 50px;
+  margin: 20px 0;
+  border-radius: 10px;
+  width: 650px;
+}
+
+.lado-esquerdo {
+  position: absolute;
+  display: inline-block;
+  left: 20px;
+  top: 0;
+  margin-top: 150px;
+  width: 150px;
+  background-color: rgb(238, 238, 238);
+  padding: 5px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+p {
+  margin: 30px 0;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+#titulo {
+  display: inline-block;
+}
+
+nav {
+  margin-left: 50px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+#cabecalho {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(4, 108, 83);
+  padding: 5px 50px;
+  font-size: 15px;
+  color: rgb(253, 251, 251);
+}
+
+#rodape {
+  margin-top: 80px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 5px 50px;
+  background-color: rgb(35, 38, 41);
+  color: rgb(238, 238, 238);
+  font-size: 14px;
+}
+
+.article-header {
+  margin: 0;
+  padding: 0;
+}
+
+.article-title {
+  display: inline-block;
+  padding: 0 30px;
+  margin: 0;
+  vertical-align: top;
+  line-height: 110px;
+  text-align: center;
+}
+
+.article-title-2 {
+  display: inline-block;
+  padding: 0 30px 0 0;
+  margin: 0;
+  vertical-align: top;
+  line-height: 70px;
+  text-align: center;
+}
+
+#minha_foto {
+  border-radius: 100%;
+  width: 110px;
+  display: inline-block;
+}
+
+a:visited {
+  color: aliceblue;
+}
+
+a:hover {
+  color: rgb(48, 195, 143);
+}
+
+ol , ul {
+  line-height: 1.5em;
+}
