@@ -1,0 +1,133 @@
+/* From cssbuttons.io by @ke1221|https://cssbuttons.io/detail/ke1221/ancient-walrus-24 */
+button {
+  text-align: center;
+
+  /* border: none; */
+  color: rgb(9 , 9 , 9);
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 0.5em;
+  background: rgb(232 , 232 , 232);
+  border: 1px solid rgb(232 , 232 , 232);
+  transition: all 0.3s;
+  box-shadow: 6px 6px 12px rgb(197 , 197 , 197),
+    -6px -6px 12px white;
+}
+
+button:active {
+  color: hwb(0 40% 60%);
+  box-shadow: inset 4px 4px 12px rgb(197 , 197 , 197),
+    inset -4px -4px 12px white;
+}
+
+/* ! --------------------------------------------------------- */
+body {
+  width: 500px;
+  padding: 0 30px;
+  font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+  display: block;
+  margin: 20px auto;
+}
+
+header {
+  text-align: center;
+}
+
+.meme-container {
+  border: 1px solid black;
+}
+
+#meme-image-container {
+  background-color: white;
+  width: 500px;
+  height: 400px;
+  position: relative;
+}
+
+.fire {
+  border: 3px dashed red;
+}
+
+.water {
+  border: 5px double blue;
+}
+
+.earth {
+  border: 6px groove green;
+}
+
+#meme-text {
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+  color: white;
+  font-family: Impact, Haettenschweiler, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50% , -50%);
+  z-index: 1;
+
+  /* width: 450px;   */
+  width: inherit;
+
+  /* padding: -8px 50px; */
+  word-wrap: break-word;
+}
+
+#meme-image {
+
+  /* width:inherit;
+  height: inherit; */
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.meme-controls {
+  margin: 30px auto;
+  text-align: center;
+}
+
+.chg-border {
+  margin: auto 25px;
+}
+
+.fire-btn {
+  background-color: red;
+  color: whitesmoke;
+}
+
+.water-btn {
+  background-color: blue;
+  color: whitesmoke;
+}
+
+.earth-btn {
+  background-color: green;
+  color: whitesmoke;
+}
+
+.meme-templates {
+  text-align: center;
+}
+
+.meme-templates button {
+  padding: 0;
+  margin: 5px 0;
+  background-color: rgb(179 , 179 , 179);
+}
+
+.templates {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 5px;
+  vertical-align: middle;
+}

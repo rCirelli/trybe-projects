@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Minha Lista de Tarefas</title>
+</head>
+
+<body>
+  <main class="wrapper">
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento"><em>Clique duas vezes em um item para marcá-lo como completo</em></p>
+    </header>
+
+    <section id="input-field">
+      <input type="text" id="texto-tarefa">
+
+      <button id="criar-tarefa">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text"> Adicionar &#10004;
+        </span>
+      </button>
+    </section>
+
+    <section id="list">
+      <hr>
+      <ol id="lista-tarefas">
+      </ol>
+      <hr>
+    </section>
+
+    <section id="controls">
+
+      <button id="remover-selecionado">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text icon"> &#10006;
+        </span>
+      </button>
+
+      <button id="mover-cima">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text icon"> &#9650;
+        </span>
+      </button>
+
+      <button id="mover-baixo">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text icon"> &#9660;
+        </span>
+      </button>
+
+      <button id="remover-finalizados">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text"> Limpar Completos&#9974;
+        </span>
+      </button>
+
+      <button id="apaga-tudo">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text"> Limpar Lista &#10008;
+        </span>
+      </button>
+
+      <button id="salvar-tarefas">
+        <span class="shadow"></span>
+        <span class="edge"></span>
+        <span class="front text"> Salvar Lista &#10004;
+        </span>
+      </button>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+
+</html>

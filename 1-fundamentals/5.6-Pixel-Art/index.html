@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="title">Paleta de Cores</h1>
+    <div class="wrapper">
+      <section>
+        <ul id="color-palette">
+          <li id="black" class="button color selected"></li>
+          <li class="button color"></li>
+          <li class="button color"></li>
+          <li class="button color"></li>
+          <!-- <li id="red" class="button color"></li>
+          <li id="green" class="button color"></li>
+          <li id="blue" class="button color"></li> -->
+        </ul>
+      </section>
+      <div id="clear-board" class="button reset">Limpar</div>
+      <section id="grid-input">
+        <span>Tamanho do grid: </span><br>
+        <input type="number" id="board-size" class="number-input" name="Width" min="1">
+        <div id="generate-board" class="button">VQV</div>
+      </section>    
+    </div>
+  </header>
+  <section id="pixel-board"></section>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Meme Generator</title>
+</head>
+<body>
+  <header>
+    <h1>Meme Generator</h1>
+  </header>
+
+  <main>
+    <section class="inputs">
+      <label for="">Texto: <input type="text" name="text-input" id="text-input" maxlength="60"></label>
+      <label for="">Foto: &nbsp; <input type="file" accept="image/*" name="meme-insert" id="meme-insert" onchange="loadImg()"></label>
+    </section>
+    
+    <section class="meme-box">
+      <div id="meme-image-container" class="meme-container">        
+        <span id="meme-text"></span>
+        <img id="meme-image" src="#" alt="">
+      </div>
+    </section>
+
+    <section class="meme-controls">
+      <button id="fire" class="chg-border fire-btn">Fire</button>
+      <button id="water" class="chg-border water-btn">Water</button>
+      <button id="earth" class="chg-border earth-btn">Earth</button>
+    </section>
+
+    <section class="meme-templates">
+      <button id="meme-1"><img src="imgs/meme1.png" alt="#" class="templates"></button>
+      <button id="meme-2"><img src="imgs/meme2.png" alt="#" class="templates"></button>
+      <button id="meme-3"><img src="imgs/meme3.png" alt="#" class="templates"></button>
+      <button id="meme-4"><img src="imgs/meme4.png" alt="#" class="templates"></button>
+    </section>
+  </main>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,117 @@
+#red {
+  background-color: red;
+}
+
+#green {
+  background-color: green;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#black {
+  background-color: black;
+}
+
+.gridLine li {
+  margin: 0;
+  display: inline-block;
+  border: 1px solid black;
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  list-style: none;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#color-palette {
+  padding: 0;
+}
+
+#color-palette li {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 20px;
+  margin: auto 5px;
+  vertical-align: middle;
+  border-radius: 7px;
+}
+
+.color:hover {
+  outline: 3px solid palevioletred;
+}
+
+#pixel-board {
+  margin-top: 40px;
+}
+
+.gridLine {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: auto;
+}
+
+body {
+  overflow-x: scroll;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  background-color: #c7c7c7;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, sans-serif;
+}
+
+#clear-board {
+  margin-top: 10px;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.button {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border: 1px solid black;
+  border-radius: 7px;
+  margin: auto;
+  display: inline-block;
+  padding: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #37a53b;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.selected {
+  outline: 5px solid palevioletred;
+}
+
+#grid-input {
+  margin-top: 35px;
+}
+
+.number-input {
+  width: 50px;
+  height: 20px;
+}
+
+#generate-board {
+  font-size: 16px;
+  padding: 10px;
+}
+

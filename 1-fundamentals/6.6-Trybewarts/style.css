@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(239, 239, 239);
+}
+
+.header {
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(50, 167, 145);
+}
+
+.header img {
+  width: 50px;
+}
+
+.trybewarts-login {
+  margin: 5px 0;
+  display: flex;
+  align-self: stretch;
+}
+
+.trybewarts-login > input {
+  font-size: 17px;
+  max-width: 200px;
+  padding: 5px 10px;
+  margin-right: 7px;
+  border-radius: 7px;
+}
+
+#login-btn {
+  width: 120px;
+}
+
+button {
+  color: white;
+  font-size: 18px;
+  background-color: rgb(77, 43, 130);
+  padding: 7px 25px;
+  border-radius: 7px;
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+.container-principal {
+  padding: 30px 70px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#evaluation-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 675px;
+}
+
+#evaluation-form input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+
+#top-section , #middle-section , #bottom-section {
+  padding: 20px 0;
+}
+
+#top-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.nome-sobrenome , .email-casa {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nome-sobrenome > * , .email-casa > * {
+  height: 7vh;
+  width: 100%;
+  margin: 5px;
+}
+
+#house {
+  border-radius: 7px;
+  border: none;
+  background-color: white;
+}
+
+#selector {
+  display: flex;
+}
+
+#selector > * {
+  align-self: center;
+}
+
+#selector select {
+  height: 100%;
+  flex-grow: 100;
+}
+
+#middle-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+#left-column , #right-column {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#checkbox-container {
+  display: flex;
+  flex-flow: column;
+  max-width: 100%;
+}
+
+#top-row , #bottom-row {
+  display: flex;
+}
+
+#top-row > * , #bottom-row > * {
+  margin: 5px 20px;
+  margin-left: 0;
+}
+
+.satisfacao {
+  margin: 15px 0;
+}
+
+.comentario {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea , #textarea {
+  margin: 5px 0;
+}
+
+#textarea {
+  border-radius: 2%;
+}
+
+hr {
+  border: 1px solid gray;
+}
+
+.concorda {
+  margin: 5px 0;
+}
+
+#agreement {
+  margin-left: 8px;
+}
+
+label {
+  font-size: 20px;
+}
+
+footer {
+  text-align: center;
+  height: 30px;
+  background-color: rgb(60, 64, 74);
+  color: white;
+  font-weight: 900;
+}
